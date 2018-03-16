@@ -1,14 +1,16 @@
 # Automation-with-puppet
 This is a basic workshop for beginners to learn puppet.
 
-* Installation Steps
-  ~~~~~~~~~~~~~~~~~~
+## Installation Steps
+~~~
 
 	# yum -y install http://yum.puppetlabs.com/puppetlabs-release-el-7.noarch.rpm
 	you can check for the file puppetlabs.repo in /etc/yum.repos.d/
 
-Server:
-~~~~~~~
+~~~
+
+## Server:
+~~~
 
 	# yum install -y puppet-server
 
@@ -23,9 +25,10 @@ Server:
 	# systemctl start puppetmaster
 
 	# systemctl enable puppetmaster.service
+~~~
 
-Client:
-~~~~~~~
+## Client:
+~~~
 
 	# yum install -y puppet
 
@@ -35,11 +38,10 @@ Client:
 			server = server.domain.com or server-ip-address
 
 	# puppet agent -t
+~~~
 
-  # puppet 
-
-Server:
-~~~~~~~
+## Server:
+~~~
 
 	# puppet cert list
 
@@ -49,8 +51,10 @@ Server:
 
 	# systemctl enable puppet.service
 
-Client:
-~~~~~~~
+~~~
+## Client:
+~~~
 
 	# puppet agent --fingerprint
 
+~~~
