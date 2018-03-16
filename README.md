@@ -1,5 +1,13 @@
 # Automation-with-puppet
-This is a basic workshop for beginners to learn puppet.
+This is a basic workshop for beginners to learn puppet. 
+
+Inside the set-up folder, you will find the server and the client files. Both these files
+contain the Vagrant file. You need to `vagrant up` in both the folders(server and client). 
+
+Once vagrant up command is complete run `vagrant ssh`. You are now inside the centos machine
+that you just created! 
+
+Become root by `su` command(password=vagrant) and follow the commands given bellow.
 
 ## Installation Steps
 ~~~
@@ -58,3 +66,5 @@ This is a basic workshop for beginners to learn puppet.
 	# puppet agent --fingerprint
 
 ~~~
+
+## happy hacking :)
