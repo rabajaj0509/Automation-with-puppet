@@ -1,0 +1,9 @@
+# Create a file of your own!
+# ---------------------------
+
+# Create your own manifest file (you can name it anything you like, 
+# so long as the file extension is .pp). Use a `file` resource to create
+# a file on the server with any contents you like.
+
+# Apply the manifest with Puppet and check that the file is created and 
+# contains the text you specified. 

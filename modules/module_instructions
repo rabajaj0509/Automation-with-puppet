@@ -1,0 +1,8 @@
+to create modules:
+# puppet module generate rht-foreman
+
+to build the module
+# puppet module build rht-foreman
+
+to install the module
+# puppet module install --force modules/rht-foreman/pkg/rht-foreman.tar.gz
